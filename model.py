@@ -159,7 +159,7 @@ if user_input:
     st.markdown(report)
 
     # Generate Word document
-    template_path = "/Users/vaishnaviayyala/Desktop/US Consulting/AI Sales Research/Model/templates/ModelTemplate.docx"
+    template_path = "ModelTemplate.docx"
     doc_file = fill_word_template(template_path, report)
     
     # Download Button

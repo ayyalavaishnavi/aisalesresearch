@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain_community
+groq
+pydantic
+beautifulsoup4
+requests
+serpapi
+langchain-groq
+python-docx

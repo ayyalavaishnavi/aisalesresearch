@@ -6,7 +6,7 @@ def fill_word_template(template_path, model_output):
     """Replaces {{generatedContent}} with the AI-generated company report."""
     
     # Load the template document
-    doc = Document("/Users/vaishnaviayyala/Desktop/US Consulting/AI Sales Research/Model/ModelTemplate.docx")
+    doc = Document("ModelTemplate.docx")
 
     # Replace placeholder {{generatedContent}}
     for para in doc.paragraphs:
